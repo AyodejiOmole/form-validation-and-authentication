@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="forgot-css.css">
+        <title>Sign in</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <h2>Sign-in Form</h2>
+            </div>
+
+            <form id="form-body">
+                <div class="form-control">
+                    <label>E-mail</label>
+                    <input type="text" class="input-box" placeholder="Email" id="email-sign"/>
+                    <span class="check">
+                        <img src="images/check-solid.svg" class="mark">
+                        <img class="wrong" src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-exclamation-basic-ui-elements-2.2-sbts2018-flat-sbts2018.png"/>
+                    </span>
+                    
+                    <small>Please enter your Email</small>
+                </div>
+
+                <div class="form-control">
+                    <label>Password</label>
+                    <input type="text" class="input-box" placeholder="Password" id="password-sign"/>
+                    <span class="check">
+                        <img src="images/check-solid.svg" class="mark">
+                        <img class="wrong" src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-exclamation-basic-ui-elements-2.2-sbts2018-flat-sbts2018.png"/>
+                    </span>
+                    
+                    <small>Please enter your password</small>
+                </div>
+
+                <input type="submit" value="Sign in" id="sign-in-submit">
+
+                <p id="sign-text">Don't have an account? <a href="forgotPassword.html">Sign up here.</a></p>
+
+                <script type="text/javascript" src="sign-in.js"></script>
+
+            </form>
+        </div>
+    </body>
+
+</html>
+

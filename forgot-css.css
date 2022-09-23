@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container {
+    background-color: white;
+    height: fit-content;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 300px;
+    overflow: hidden;
+}
+
+#header {
+    background-color: #f7f7f7;
+    padding:20px 40px;
+    border-bottom:  1px solid #f0f0f0;
+}
+
+#header h2 {
+    margin: 0;
+}
+
+.form-control input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
+
+#form-body {
+    padding: 15px 20px;
+}
+
+.check {
+    position: absolute;
+    right: 550px;
+    top: 143px;
+}
+
+.check img {
+    width: 10px;
+    height: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+}
+
+#submit-button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: aquamarine;
+}
+
+.form-control.success input {
+    border-color: green;
+}
+
+.form-control.success .mark {
+    visibility: visible;
+}
+
+.form-control.error input {
+    border: 2px solid red;
+}
+
+.form-control.error small {
+    color: red;
+    visibility: visible;
+}
+
+.form-control.error .check {
+    right: 570px;
+}
+
+.form-control.error .wrong {
+    visibility: visible;
+    right: 555px;
+}
+
+
+/* Sign in specific styles */
+#sign-in-submit {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: aquamarine;
+}
+
+#button-create {
+    display: none;
+}
+
